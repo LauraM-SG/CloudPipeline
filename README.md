@@ -1,10 +1,11 @@
-# A practical data engineering simulation: building a real-time data pipeline for Gans⚡🛴
+# Real-time data pipeline for Gans⚡🛴
+ 
+> A practical data engineering simulation to bridge the gap between static data and dynamic urban mobility
+---
+## 🎯 Project Overview 
 
-Bridging the gap between static data and dynamic urban mobility
-
-Gans, an e-scooter company reimagining city transport, faces a common but critical challenge:
-
-How can we use real-time external data to optimize scooter deployments in a constantly changing urban environment?
+**Gans**, an e-scooter company reimagining city transport, faces a common but critical challenge:
+*How can we use real-time external data to optimize scooter deployments in a constantly changing urban environment?*
 
 While exploring Gans’s ecosystem, three key data streams emerged as strong revenue drivers:
 
@@ -21,5 +22,4 @@ In essence, this project is a hands-on application of modern ETL principles and 
 __
 
 You can read my blog about my personal experience here: 
-The Craft and Chaos of Real-Time Data Pipelines: A Hands-On Guide with Lessons Learned
-https://medium.com/@laurysan0912/the-craft-and-chaos-of-real-time-data-pipelines-a-hands-on-guide-with-lessons-learned-5641919257ae
+[The Craft and Chaos of Real-Time Data Pipelines: A Hands-On Guide with Lessons Learned](https://medium.com/@laurysan0912/the-craft-and-chaos-of-real-time-data-pipelines-a-hands-on-guide-with-lessons-learned-5641919257ae)
