@@ -47,9 +47,9 @@ This project is divided into two main phases:
    * Services: **Google Cloud SQL**, **Cloud Functions**, **Cloud Scheduler**
 
 ## 🧱 Project structure
-```
+```bash
 gans-data-pipeline/
-├── scripts_phase1/               # **Local** pipeline scripts
+├── scripts_phase1/               # Local pipeline scripts
 │   ├── additional_df.py
 │   ├── weather_df.py
 │   ├── flights_airports_df.py
@@ -60,7 +60,7 @@ gans-data-pipeline/
 │   ├── flights_function.py
 │   └── airports_function.py
 │
-├── sql/                          # **Database schema** & **SQL** queries
+├── sql/                          # Database schema & SQL queries
 ├── config/                       # API keys and configuration files
 └── README.md
 ```
