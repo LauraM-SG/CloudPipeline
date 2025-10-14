@@ -90,8 +90,9 @@ Sources include:
 Collected data is organized into Pandas DataFrames for further processing.
    
 > [!IMPORTANT]
-> Subscribe to each API and **create your own** `.env` **file** to securely store the keys.
->This file should not be pushed to GitHub.
+> 
+> Subscribe to each API and **create your own** `.env` **file** to securely store your keys. This file contains confidential information and **should never be pushed to GitHub**.
+> 
 > Here is an example of the structure:
 > 
 > ```bash
