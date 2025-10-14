@@ -50,9 +50,9 @@ This project is divided into two main phases:
 ```bash
 gans-data-pipeline/
 ├── scripts_phase1/               # Local pipeline scripts
-│   ├── additional_df.py
-│   ├── weather_df.py
-│   ├── flights_airports_df.py
+│   ├── additional_df.ipynb
+│   ├── flights_airports_df.ipynb
+│   ├── weather_df.ipynb
 │
 ├── scripts_phase2/               # Cloud-deployed pipeline scripts
 │   ├── additional_data_function.py
@@ -90,7 +90,15 @@ Sources include:
 Collected data is organized into Pandas DataFrames for further processing.
    
 > [!IMPORTANT]
-> Subscribe to each API and store your API keys securely in a `.env` file.
+> Subscribe to each API and **create your own** `.env` **file** to securely store the keys.
+>This file should not be pushed to GitHub.
+> Here is an example of the structure:
+> 
+> ```bash
+>   RAPIDAPI_KEY = your_api_key_here
+>   OPENWEATHER_API_KEY = your_api_key_here
+> ```
+> Replace the placeholders with your actual key, and you'll be ready to go.
 
 #### 🔗 1.3 Connecting MySQL with Python
 
