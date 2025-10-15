@@ -60,8 +60,7 @@ gans-data-pipeline/
 │   ├── flights_function.py
 │   └── airports_function.py
 │
-├── sql/                          # Database schema & SQL queries
-├── config/                       # API keys and configuration files
+├── mySQL/                          # Database schema & SQL queries
 └── README.md
 ```
 ---
@@ -75,14 +74,14 @@ This project focuses on three major German cities: Berlin, Hamburg, and Munich
 #### 🧩 1.1 Setting up the Database (MySQL)
 The schema (available in the sql/ folder) includes the following tables:
 1. **cities** `city_id`, `city_name`
-2. **weather:** `city_id`, `forecast_date`, `weather_desc`, `temp`, `feels_like`, `temp_min`, `temp_max`, `humidity`, `wind_speed`, `visibility`, `pop`, `rain`, `snow`, `time_retrieved`
-3. **arrival_flights:** `icao`, `scheduled_arrival_time`, `arrival_gate`, `arrival_terminal`, `icao_departure_airport`, `departure_airport_name`
+2. **additional_data:** `city_id`, `population`, `longitude`, `latitude`, `year_retrieved`
+3. **weather:** `city_id`, `forecast_date`, `weather_desc`, `temp`, `feels_like`, `temp_min`, `temp_max`, `humidity`, `wind_speed`, `visibility`, `pop`, `rain`, `snow`, `time_retrieved`
 4. **airports:** `city_id`, `airport_name`, `icao`, `iata`, `latitude`, `longitude`
-5. **additional_data:** `city_id`, `population`, `longitude`, `latitude`, `year_retrieved`
-
+5. **arrival_flights:** `icao`, `scheduled_arrival_time`, `arrival_gate`, `arrival_terminal`, `icao_departure_airport`, `departure_airport_name`
+   
 #### 🌐 1.2 Data Gathering
 Sources include:
-1. **Population & coordinates **– Web scraping from _Wikipedia_
+1. **Population & coordinates** – Web scraping from _Wikipedia_
 2. **Weather data** – _OpenWeatherMap API_ (forecasts & current conditions)
 3. **Flight data** – _AeroDataBox API_ (scheduled arrivals & departures)
 4. **ICAO airport data**– _AeroDataBox_ API
