@@ -1,0 +1,14 @@
+# Ignorar archivos de entorno y otros sensibles
+.env
+*.env
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# IDEs
+.vscode/
+.idea/e
